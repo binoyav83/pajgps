@@ -1,0 +1,8 @@
+{
+  "name": "pajgps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "857f95d1"
+}
