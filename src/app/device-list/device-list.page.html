@@ -1,0 +1,14 @@
+<!-- src/app/device-list/device-list.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Devices</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let device of devices" (click)="navigateToDevice(device)">
+      {{ device }}
+    </ion-item>
+  </ion-list>
+</ion-content>
